@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Aprendendo tailwind</title>
+</head>
+<body class="bg-gray-50">
+  <header class="flex">
+    <img draggable="false" class="ml-[1rem] my-[1.2rem]" src="logo.png" alt="">
+    <nav class="flex">
+      <button><img  draggable="false" class="ml-[16rem]" onclick="drop()" src="./menu.png" alt=""></button>
+    </nav>
+  </header>
+  <div class="absolute bg-gray-200 h-[17rem] w-[18rem] ml-[4.4rem] my-[4.5rem]"></div>
+  <main class="flex justify-center">
+    <img  draggable="false" class="flex absolute h-[17rem] my-[3rem] z-10" src="./foto.png" alt="">
+    <div class="flex my-[-2rem]">
+      <h1 class="flex absolute font-semibold text-gray-800 text-2xl my-[25rem] ml-[-19.5rem] w-[20rem]">Olá, me chamo Thiago 👋</h1>
+      <p class="flex absolute my-[27.8rem] w-[24rem] ml-[-19.5rem] text-gray-800">Thiago Lincoln, um jovem de 13 anos, mergulhou de cabeça no fascinante mundo do desenvolvimento front-end. Desde cedo, Thiago demonstrou uma afinidade natural com a tecnologia, e sua curiosidade o levou a explorar as nuances do HTML, CSS e JavaScript. Nas horas vagas, Thiago transforma seu quarto em um verdadeiro estúdio de desenvolvimento, onde ideias e códigos se entrelaçam em projetos inovadores. Seus pais, inicialmente surpresos pela profundidade de seu interesse, agora o apoiam plenamente, reconhecendo o potencial extraordinário que ele possui como desenvolvedor front-end.</p>
+    </div>
+    <div class="flex absolute flex-row my-[47.5rem] ml-[-17rem]">
+      <img  draggable="false" class="flex flex-row" src="./point.png" alt="">
+      <h4 class="font-semibold">Salvador, BA</h4>
+    </div>
+    <div class="flex absolute flex-row my-[49.8rem] ml-[-5rem]">
+      <img draggable="false" class="flex absolute flex-row h-[0.6rem] ml-[-1.3rem]" src="dot-green.png" alt="">
+      <h4 class="font-semibold ml-[-0.3rem] my-[-0.48rem]">Em disposição para novos projetos!</h4>
+    </div>
+    <div class="flex flex-row gap-[1rem] my-[54rem] ml-[-19rem]">
+      <a href="https://github.com/souzazxcc" target="_blank"><img  draggable="false" src="./git.png" alt=""></a>
+      <a href="https://twitter.com/souzazxxc" target="_blank"></a><img draggable="false"  src="./twiter.png" alt=""></a>
+    </div>
+    <h2 class="flex absolute rounded-2xl bg-gray-500 h-[2rem] w-[4.5rem] justify-center items-center text-white my-[65rem]">Skills</h2>
+    <p class="absolute text-gra-400 w-[20rem] text-center my-[68rem]">As skills, ferramentas e tecnologias que eu sou realmente bom:</p>
+    <div class="flex absolute my-[75rem] gap-[2rem]">
+      <div class="flex flex-col">
+      <img id="js" src="./icon-javscript.svg" alt="">
+      <label for="js">JavaScript</label>
+    </div>
+    <div class="flex flex-col">
+      <img id="tail" src="icon-tailwindcss.svg" alt="">
+      <label for="tail" class="my-[0.35rem] ml-[1rem]">Tailwind</label>
+    </div>
+    <div class="flex flex-col">
+      <img id="" src="git-pro.png" alt="">
+      <label for="git" class="my-[1.1rem] ml-[0.8rem]">Git</label>
+    </div>
+    </div>
+    <div class="flex absolute flex-row gap-[1rem] my-[100rem]">
+      <img class="h-[1rem]" src="./email.png" alt="">
+      <h4 class="text-gray-800 font-semibold my-[-0.3rem]">thilincolndev@gmail.com</h4>
+    </div>
+    <a href="https://discord.gg/3kUMhr6Ruv" target="_blank" class="flex absolute bg-gray-700 h-[2.5rem] w-[10rem] justify-center text-white text-lg border-none rounded-lg my-[87rem]"><button>Discord</button></a>
+    <div class="flex absolute bg-gray-400 my-[107rem] w-[26.9rem] h-[2.5rem] justify-center items-center font-semibold">
+      <h3>2024 | Made by Thiago Lincoln ❤️ ©️</h3>
+    </div>
+  </main>
+</html>
+</body>
